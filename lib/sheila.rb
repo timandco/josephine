@@ -1,5 +1,5 @@
-class Sheila
-	def self.hello
-		puts "Hello"
-	end
+require "sheila/version"
+
+module Sheila
+  # Your code goes here...
 end

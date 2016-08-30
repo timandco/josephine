@@ -15,8 +15,9 @@ Gem::Specification.new do |s|
 	s.authors               = ['Tim Upchurch']
 	s.email                 = 'admin@timand.co'
 	s.license               = 'MIT'
+	s.executables           = ['sheila']
 
-	s.add_dependency          'bundler'
+	s.add_dependency          'bundler', '~> 1.3'
 	s.add_dependency          'rails', Sheila::RAILS_VERSION
 
 	s.add_development_dependency 'rspec', '~> 3.2'

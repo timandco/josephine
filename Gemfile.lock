@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     sheila (0.1.0)
-      bundler
+      bundler (~> 1.3)
       rails (~> 5.0.0)
 
 GEM
