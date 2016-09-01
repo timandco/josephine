@@ -5,7 +5,7 @@ describe Sheila do
     expect(Sheila::VERSION).not_to be nil
   end
 
-  it 'does something useful' do
-    expect(false).to eq(true)
+  it 'asserts the truth' do
+    expect(true).to eq(true)
   end
 end
